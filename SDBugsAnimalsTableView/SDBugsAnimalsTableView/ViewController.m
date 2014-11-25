@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DetailsViewController.h"
 #define numberOfSections 2
 
 @interface ViewController ()
@@ -23,6 +24,7 @@
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    _tableView.dataSource = self;
 }
 
 - (void)didReceiveMemoryWarning
@@ -90,6 +92,21 @@
     
     
     return cell;
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    DetailsViewController *destination = [segue destinationViewController];
+    NSInteger ind = [_tableView indexPathForSelectedRow].row;
+    NSInteger sec = [_tableView indexPathForSelectedRow].section;
+    if (sec == 0) {
+        destination.detailsText = _animals[ind];
+
+    } else {
+        destination.detailsText = _bugs[ind];
+    }
+    
+
+
 }
 
 @end

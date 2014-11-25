@@ -21,6 +21,7 @@
 		CE7ADB891A248CBF006B5E68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7ADB6B1A248CBF006B5E68 /* UIKit.framework */; };
 		CE7ADB911A248CBF006B5E68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE7ADB8F1A248CBF006B5E68 /* InfoPlist.strings */; };
 		CE7ADB931A248CBF006B5E68 /* SDBugsAnimalsTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ADB921A248CBF006B5E68 /* SDBugsAnimalsTableViewTests.m */; };
+		CE7ADB9E1A24CACA006B5E68 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7ADB9D1A24CACA006B5E68 /* DetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CE7ADB8E1A248CBF006B5E68 /* SDBugsAnimalsTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDBugsAnimalsTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		CE7ADB901A248CBF006B5E68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE7ADB921A248CBF006B5E68 /* SDBugsAnimalsTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDBugsAnimalsTableViewTests.m; sourceTree = "<group>"; };
+		CE7ADB9C1A24CACA006B5E68 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		CE7ADB9D1A24CACA006B5E68 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				CE7ADB7D1A248CBF006B5E68 /* ViewController.m */,
 				CE7ADB7F1A248CBF006B5E68 /* Images.xcassets */,
 				CE7ADB6E1A248CBF006B5E68 /* Supporting Files */,
+				CE7ADB9C1A24CACA006B5E68 /* DetailsViewController.h */,
+				CE7ADB9D1A24CACA006B5E68 /* DetailsViewController.m */,
 			);
 			path = SDBugsAnimalsTableView;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				CE7ADB7E1A248CBF006B5E68 /* ViewController.m in Sources */,
 				CE7ADB781A248CBF006B5E68 /* AppDelegate.m in Sources */,
 				CE7ADB741A248CBF006B5E68 /* main.m in Sources */,
+				CE7ADB9E1A24CACA006B5E68 /* DetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
