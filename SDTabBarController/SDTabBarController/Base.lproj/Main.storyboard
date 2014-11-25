@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Vqk-jz-uUQ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller - Item 1-->
+        <scene sceneID="lqY-B1-X26">
+            <objects>
+                <viewController id="eC3-nH-OlU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YeF-b7-BIV"/>
+                        <viewControllerLayoutGuide type="bottom" id="0EI-1w-JIx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D8f-6X-yWu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="second" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="doz-lx-wis">
+                                <rect key="frame" x="139" y="310" width="172" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="animal-element-7.png" id="rH6-6U-IYB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ues-1N-SM6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066" y="251"/>
+        </scene>
+        <!--View Controller - Item-->
+        <scene sceneID="VA5-kc-PP4">
+            <objects>
+                <viewController id="6gz-s4-imR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dq6-uN-Ezf"/>
+                        <viewControllerLayoutGuide type="bottom" id="xuO-OK-YQn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lOO-ob-tAv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gg-vX-q9S">
+                                <rect key="frame" x="126" y="334" width="174" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="airplane-symbol-7.png" id="nFn-m2-pMy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ree-Bm-GSa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="409" y="-158"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="BhU-l8-k8C">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="Vqk-jz-uUQ" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="MhF-Lg-Te7">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="eC3-nH-OlU" kind="relationship" relationship="viewControllers" id="qyn-ZS-bGJ"/>
+                        <segue destination="AfX-tf-yfx" kind="relationship" relationship="viewControllers" id="N0I-Ur-Q2Q"/>
+                        <segue destination="ZHJ-od-UoE" kind="relationship" relationship="viewControllers" id="MqZ-Ec-mwt"/>
+                        <segue destination="6gz-s4-imR" kind="relationship" relationship="viewControllers" id="BJf-Ma-UT4"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Fc-u4-TTe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-694" y="617"/>
+        </scene>
+        <!--View Controller - Item-->
+        <scene sceneID="sBO-m9-tfD">
+            <objects>
+                <viewController id="ZHJ-od-UoE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u6j-cz-Hzm"/>
+                        <viewControllerLayoutGuide type="bottom" id="tXN-vW-ojp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OLO-Fe-AUm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fourth" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPO-2T-9rX">
+                                <rect key="frame" x="139" y="244" width="181" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="business-bag-7.png" id="hBK-ma-PRA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ezL-hi-Fu2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="409" y="1613"/>
+        </scene>
+        <!--View Controller - Item 2-->
+        <scene sceneID="E7g-TT-RlB">
+            <objects>
+                <viewController id="AfX-tf-yfx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9yO-6C-oh9"/>
+                        <viewControllerLayoutGuide type="bottom" id="DAV-1h-BX3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VOK-0k-ftC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Third" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFY-DZ-jwN">
+                                <rect key="frame" x="139" y="247" width="170" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" image="bookmark-7.png" id="TYq-Aa-AeU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9gc-UZ-Ugh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="994" y="1161"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="airplane-symbol-7.png" width="30" height="30"/>
+        <image name="animal-element-7.png" width="30" height="30"/>
+        <image name="bookmark-7.png" width="30" height="30"/>
+        <image name="business-bag-7.png" width="30" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
